@@ -31,8 +31,11 @@ run mian.m
 <p align="center"> <img src="./R2.jpg" width="100%">    </p>
 <p align="center"> Figure 5: Performance comparisons of the proposed method using three mapping strategies.</p>
 
-<p align="center"> <img src="./Extension.jpg" width="100%">    </p>
-<p align="center"> Figure 6: Optimal 2D mapping using Pro-AMG for different capacities. </p>
+<p align="center"> <img src="./R3.jpg" width="100%">    </p>
+<p align="center"> Figure 6: Comparison of PSNR for the capacity of 10,000 bits.</p>
+
+<p align="center"> <img src="./R0.jpg" width="100%">    </p>
+<p align="center"> Figure 7: Optimal 2D mapping using Pro-AMG for different capacities. </p>
 
 
 ## Environment
