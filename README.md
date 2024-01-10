@@ -3,52 +3,51 @@ Hybrid pairwise PEE
 =======
 
 
-This repo is implementation for the accepted paper "[Improving Pairwise PEE via Hybrid-Dimensional Histogram Generation and  Adaptive Mapping Selection](https://ieeexplore.ieee.org/document/8419757)" (TCSVT 2019).
+论文题目： "[Improving Pairwise PEE via Hybrid-Dimensional Histogram Generation and  Adaptive Mapping Selection](https://ieeexplore.ieee.org/document/8419757)" (TCSVT 2019).
 
 
 <p align="center"> <img src="./M1.jpg" width="100%">    </p>
-<p align="center"> Figure 1: Flowchart of the method. </p>
+<p align="center"> 图1: 方法流程图 </p>
 
 
 <p align="center"> <img src="./M2.jpg" width="100%">    </p>
-<p align="center"> Figure 2: General idea for the proposed method using the hybrid PEHs of 1D and high dimensional. </p>
+<p align="center"> 图2: 混合PEH修改的基本框架. </p>
 
 <p align="center"> <img src="./M3.jpg" width="100%">    </p>
-<p align="center"> Figure 3: Comparison in the adaptive pixel pairing strategy. </p>
+<p align="center"> 图3: 自适应配对策略对比. </p>
 
-## How to run
+## 如何运行
 
 ```
-go to Public_Code
-run mian.m
+进入 Public_Code 文件夹
+运行 mian.m 文件
 ```
 
-## Experimental Results
+## 实验结果
 
 <p align="center"> <img src="./R1.jpg" width="100%">    </p>
-<p align="center"> Figure 4: Performance comparisons in terms of capacity-distortion trade-off. </p>
+<p align="center"> 图4: 对比容量-失真性能 </p>
 
 <p align="center"> <img src="./R2.jpg" width="100%">    </p>
-<p align="center"> Figure 5: Performance comparisons of the proposed method using three mapping strategies.</p>
+<p align="center"> 图5: 3种映射策略的性能对比.</p>
 
 <p align="center"> <img src="./R3.jpg" width="100%">    </p>
-<p align="center"> Figure 6: Comparison of PSNR for the capacity of 10,000 bits.</p>
+<p align="center"> 图6: PSNR对比.</p>
 
 <p align="center"> <img src="./R0.jpg" width="100%">    </p>
-<p align="center"> Figure 7: Optimal 2D mapping using Pro-AMG for different capacities. </p>
+<p align="center"> 图7: 使用Pro-AMG算法生成的最优2D映射. </p>
 
 
-## Environment
+## 实验环境
 Matlab 2016b <br>
 
 
-## Acknowledgement
-This work was supported in part by the National Key Research and Development of China under Grant 2016YFB0800404, in part by the National Science Foundation of China under Grant 61502160,
-Grant 61572052, Grant U1736213, and Grant 61332012, and in part by the Fundamental Research Funds for the Central Universities under Grant 2017RC008.
+## 致谢
+本研究得到了国家重点研发计划（2016YFB0800404）的部分资助，国家科学基金（61502160、61572052、U1736213、61332012）的部分资助和中央高校基本科研业务费（2017RC008）的部分资助。
 
 
-## Citation
-If you find this work useful for your research, please cite
+## 引用格式
+如果这项工作对您的研究有帮助, 请按如下格式引用：
 ```
 @ARTICLE{8419757,
   author={Ou, Bo and Li, Xiaolong and Zhang, Weiming and Zhao, Yao},
@@ -61,6 +60,5 @@ If you find this work useful for your research, please cite
   doi={10.1109/TCSVT.2018.2859792}}
 ```
 
-## License and Copyright
-The project is open source under MIT license (see the ``` LICENSE ``` file).
-
+## 版权声明
+受欧博老师委托，本项目已开源 (详见 ``` MIT LICENSE ``` ).
